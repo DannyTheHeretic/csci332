@@ -1,0 +1,21 @@
+Catagory,Model,Points
+Accuracy,LogisticRegression,68
+AUC-ROC,LogisticRegression,74
+Precision,LogisticRegression,22
+Recall,LogisticRegression,68
+F1 Score,LogisticRegression,33
+Accuracy,GradientBoostingClassifier,88
+AUC-ROC,GradientBoostingClassifier,74
+Precision,GradientBoostingClassifier,48
+Recall,GradientBoostingClassifier,9
+F1 Score,GradientBoostingClassifier,16
+Accuracy,RandomForestClassifier,86
+AUC-ROC,RandomForestClassifier,73
+Precision,RandomForestClassifier,37
+Recall,RandomForestClassifier,20
+F1 Score,RandomForestClassifier,26
+Accuracy,XGBClassifier,88
+AUC-ROC,XGBClassifier,74
+Precision,XGBClassifier,51
+Recall,XGBClassifier,10
+F1 Score,XGBClassifier,17

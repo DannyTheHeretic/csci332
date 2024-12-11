@@ -1,0 +1,67 @@
+[
+    {
+        "Model": "Logistic Regression",
+        "Best Params": {
+            "classifier__dual": false,
+            "classifier__fit_intercept": true,
+            "classifier__intercept_scaling": 0.1,
+            "classifier__penalty": "l1"
+        },
+        "Best Score": 0.6859474941952547
+    },
+    {
+        "Model": "Decision Tree",
+        "Best Params": {
+            "classifier__criterion": "gini",
+            "classifier__max_depth": 10,
+            "classifier__min_samples_leaf": 100,
+            "classifier__min_samples_split": 2
+        },
+        "Best Score": 0.6548453144813386
+    },
+    {
+        "Model": "Gradient Boosting",
+        "Best Params": {
+            "classifier__learning_rate": 0.2,
+            "classifier__max_depth": 3,
+            "classifier__min_samples_leaf": 10,
+            "classifier__min_samples_split": 2,
+            "classifier__n_estimators": 100
+        },
+        "Best Score": 0.6838086878045188
+    },
+    {
+        "Model": "Naive Bayes",
+        "Best Params": {},
+        "Best Score": 0.6791500855660512
+    },
+    {
+        "Model": "Random Forest",
+        "Best Params": {
+            "classifier__bootstrap": true,
+            "classifier__max_depth": 20,
+            "classifier__min_samples_leaf": 1,
+            "classifier__min_samples_split": 5,
+            "classifier__n_estimators": 200
+        },
+        "Best Score": 0.6797507476318069
+    },
+    {
+        "Model": "XGB Classifier",
+        "Best Params": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 3,
+            "classifier__n_estimators": 200
+        },
+        "Best Score": 0.6828831687661078
+    },
+    {
+        "Model": "K-Nearest Neighbours",
+        "Best Params": {
+            "classifier__metric": "euclidean",
+            "classifier__n_neighbors": 36,
+            "classifier__weights": "distance"
+        },
+        "Best Score": 0.6717074826166324
+    }
+]
